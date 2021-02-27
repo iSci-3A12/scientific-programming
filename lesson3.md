@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: 03-Advanced
+nav_order: 5
+---
 
 ### B0. Matlab interface
 1. Explore the interface layout. Know the name of each panel, and briefly describe what they do.
