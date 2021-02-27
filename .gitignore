@@ -1,0 +1,16 @@
+
+*.csv
+*.mat
+*.tsv
+assets/data/Matlab_Data_Pack/Instructions/Introductory Tasks.pdf
+assets/data/Matlab_Data_Pack/Instructions/iSci3A12CC - Introduction to Scientific Computing - Assignment Sheet.pdf
+assets/data/Matlab_Data_Pack/iSci_extract_station_data.m
+assets/data/Matlab_Data_Pack/iSci_Intermediate.m
+assets/data/Matlab_Data_Pack/iSci_lucky_numbers.m
+assets/data/Matlab_Data_Pack/iSci_Workshop_Intro.m
+assets/data/Matlab_Data_Pack/Other Scripts/isleapandprime.m
+assets/data/Matlab_Data_Pack/Other Scripts/isleapyear.m
+assets/data/Matlab_Data_Pack/plot_global_trends.m
+assets/data/Matlab_Data_Pack/plot_station_data.m
+assets/data/Matlab_Data_Pack/process_adelaide.m
+assets/data/Matlab_Data_Pack/simple_stats.m
