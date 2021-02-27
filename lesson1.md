@@ -4,6 +4,17 @@ title: 01-Learn Matlab
 nav_order: 3
 ---
 
+## The MATLAB interface
+![MATLAB Online interface](assets/img/interface.png)
+By default, the MATLAB Online interface consists of following panels: 
+- The tool panels at the top (which include ```HOME```, ```PLOTS```, and ```APPS``` tabs.
+- The path selector, which will be set initially to ```/ > MATLAB DRIVE```.
+- The **CURRENT FOLDER** browser, which will show the files and folders in your current path.
+- The **WORKSPACE**, which allows you to view/edit data (variables) that you've imported or created.
+- The **COMMAND WINDOW**, which allows you to enter commands to MATLAB (after the ```>>``` prompt).
+
+
+
 ### B0. Matlab interface
 1. Explore the interface layout. Know the name of each panel, and briefly describe what they do.
 - Change Matlab's working directory to your /Downloads folder
