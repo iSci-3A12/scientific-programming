@@ -1,8 +1,11 @@
 ---
 layout: default
-title: 01-Learn Matlab
+title: 01-Learn MATLAB
 nav_order: 3
 ---
+
+# Learn MATLAB
+
 
 ## The MATLAB interface
 ![MATLAB Online interface](assets/img/interface.png)
@@ -15,9 +18,9 @@ By default, the MATLAB Online interface consists of following panels:
 
 
 
-### B0. Matlab interface
+### B0. MATLAB interface
 1. Explore the interface layout. Know the name of each panel, and briefly describe what they do.
-- Change Matlab's working directory to your /Downloads folder
+- Change MATLAB's working directory to your /Downloads folder
 
 ### B1. Basic command window operation
 1. Create a numeric variable using the command window  
@@ -38,7 +41,7 @@ By default, the MATLAB Online interface consists of following panels:
 6. Perform basic statistical functions on your arrays
   - e.g. ```mean(d);```, ```std(d);```, ```median(d);```  
 
-### B2. Learning more about Matlab
+### B2. Learning more about MATLAB
 - There are two helpful commands for learning more about what a matlab function (like 'mean', for example) does: 
   - To view help documentation in the command window type **help** and the name of the function 
     - e.g. ```help mean;``` 
@@ -123,7 +126,7 @@ Functions are called by using their name and the output/input format specified a
 
 #### If statements
 - An 'if' statement evaluates if a condition is met (true) or not met (false), and allows the user to perform different functions based on the outcome.  
-  - If the statement is true (condition is met) Matlab will execute whatever commands are below it.  
+  - If the statement is true (condition is met) MATLAB will execute whatever commands are below it.  
   - If it is untrue, it will
  execute any commands that are below the 'else' statement.
   - Just like 'for' loops, 'if' statements have to be closed with an 'end'
