@@ -5,16 +5,101 @@ nav_order: 3
 ---
 
 # Learn MATLAB
+In this lesson, you'll become familiar with the MATLAB interface, and learn the basic syntax of programming in MATLAB. 
 
-
-## The MATLAB interface
+## 1. The MATLAB interface
 ![MATLAB Online interface](assets/img/interface.png)
 By default, the MATLAB Online interface consists of following panels: 
 - The tool panels at the top (which include ```HOME```, ```PLOTS```, and ```APPS``` tabs.
-- The path selector, which will be set initially to ```/ > MATLAB DRIVE```.
-- The **CURRENT FOLDER** browser, which will show the files and folders in your current path.
+- The path selector, which will be set initially to ```/ > MATLAB DRIVE```. This indicates the directory where MATLAB is currently set to operate.
+- The **CURRENT FOLDER** browser, which will show the files and folders in your MATLAB Drive.
 - The **WORKSPACE**, which allows you to view/edit data (variables) that you've imported or created.
 - The **COMMAND WINDOW**, which allows you to enter commands to MATLAB (after the ```>>``` prompt).
+
+## 2. Variables
+
+### Assigning and naming Variables
+- Into Command Window, enter a single digit, such as ```8```.  Notice how MATLAB assigns the inputted value to a variable called ```ans```. MATLAB stores all values that are given to it as variables. ```ans``` is the default name given to a variable if a name is not specified.  
+- Now enter another digit into the Command Window, like ```7```. Notice that ```ans=8``` is now overwritten by ```ans=7```. 
+- To avoid overwritting variables and to make more useful variable names, you can assign names and values to variables: 
+```
+a = 8
+b = 7
+test123 = 12
+c = a;
+```
+- In your **Workspace**, you'll see that you have ```a```, ```b```, ```c``` and ```test123``` listed.  You can view the value of a variable by typing the variable name back into the command window:  
+```
+test123
+``` 
+- You may have also noticed that MATLAB has echoed your commands in the **Command Window**.  Use a semicolon at the end of a command to avoid the echo:  
+```
+test123 = 14;
+```
+
+### Removing a variable from the workspace
+- You can remove a variable from your workspace by using the ```clear``` function.
+  - e.g. ```clear c``` will remove the variable ```c```.
+- You can remove all variables in the **Workspace** with the ```clearvars``` command.
+  - e.g. ```clearvars``` will remove all variables. 
+- You can clear the contents of the **Command Window** at any time by typing ```clc```.
+
+### 3b. Scalars, Vectors and Matrices
+All previous variables you've created to this point are *scalars* (i.e. 1 row x 1 column). You can use brackets (```[``` and ```]```) to create vectors and matrices.  
+- e.g. Create a 1x5 **row vector** (i.e. 1 row and 5 columns) by placing spaces between values:  
+```
+rv1 = [2 19 3 -3 4]
+```
+- e.g. Create a 5x1 **column vector** (i.e. 5 rows and 1 column) by using the semicolon (;) to start a new row:
+```
+cv1 = [31; 8; -10; 39; 2] 
+```
+
+- An apostrophe after the vector/matrix transposes it. e.g. Transpose a row vector into a column vector by adding ```'```: 
+```
+cv2 = [31 a -10 39 2]'
+```
+
+- **Matrices** can be created by expanding the examples above into multiple rows and columns. 
+  - e.g. Create a 5x4 (5 rows x 4 columns) matrix called ```mymatrix1```: 
+```
+mymatrix1 = [12 4 2 1; 13 4 1 23; 39 20 10 9; 3 -22 -12 0; 78 -6 -3 2];
+```
+
+### Not a Numbers (NaN)
+Occasionally, matrices can have missing values. In such cases, you can use the notation ```NaN``` to indicate that there is a missing value in an element of a matrix. This is important when the location of values in a matrix are important (e.g. a time series collected at regular intervals).
+- e.g. Create a matrix with a couple of ```NaN``` values:  
+``` 
+cv3 = [4 NaN 5; 9 10 NaN; 8 10 4];
+```
+
+### Referencing elements in vectors, matrices
+You can reference specific elements in a vector/matrix using parentheses (```(``` and ```)```). **NOTE** that locations are specified by (row# , column#), and you can use the colon (```:```) operator to specify an entire row or column.
+- e.g. Assign variable ```d``` the value of the element in row3, column3 of ```matrix1```
+```
+d = mymatrix1(3,3); 
+```
+- e.g. Assign variable ```e``` the value of entire first column of ```matrix1```
+```
+e = mymatrix1(:,1); 
+```
+
+
+### Exercise 
+- Make a 6x2 matrix, name it ```mymatrix2```
+
+%%% 3c. 
+% We can reference specific elements in a vector/matrix using '(' and ')',
+% remembering that we always specify (row,column)
+d = mymatrix1(3,3); % gives d the value of the element in row3, column3 of matrix1
+e = mymatrix1(:,1); % we can use the colon (:) to mean 'all' - this gives e the value of the entire first column 
+
+%%%% Exercise3c: %%%%%% 
+% Make a new variable, called mycolumn, which is just the second column of mymatrix2
+
+%%% 3d. Types of Arrays (Data types in MATLAB):
+% What we've worked with so far are numerical arrays (numbers).
+% There are other variables, namely:
 
 
 
