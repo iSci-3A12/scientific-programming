@@ -198,7 +198,7 @@ char3 = [char1 char2];
   - a NaN. e.g.: ```cell1{2,2} = NaN;```
 2. Double click on your cell array in the **Workspace** to inspect it in the **Viewer** window 
 
-## 6.4 Structure arrays
+### 6.4 Structure arrays
 1. Enter the following into your script and execute it: 
 ```
 student(1).name = 'John';
@@ -208,7 +208,9 @@ student(2).age = 24;
 ```
 2. Create a new type of category for both students named ```grade``` and give each student a value.
 
-### 6.6 Running your newly-created script
+## 7. Running your newly-created script
 - In the **Command window**, clear all variables from the workspace with the ```clearvars;``` command 
 - Run your script using the ```Run``` button. Note that you will be required to save it. Give it a useful name (no spaces or dashes) and save it to the same directory as the rest of your work.
 
+## 8. Proceed to the next lesson. 
+All done? Head to the [intermediate lesson](lesson2).
