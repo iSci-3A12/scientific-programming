@@ -7,6 +7,18 @@ nav_order: 4
 # Lesson 2: Intermediate Operations
 In this lesson, you will build upon the [basics](lesson1) to create working scripts and functions and perform some analyses. 
 
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><b>IMPORTANT NOTE:</b> For this lesson, you will work through the script <b>iSci_Intermediate.m</b>. Most instructions are embedded as comments in the script, and you can run through the steps by highlighting line(s) and executing them in the Command Window with F9.</p>
+<p>Additional information on concepts is provided below.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+For this lesson, you will work through the script ```iSci_Intermediate.m```. Most instructions are embedded as comments in the script, and you can run through the 
 
 
 

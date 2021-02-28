@@ -245,7 +245,7 @@ You'll notice that the scripts and functions contain more than just the commands
   - What are the inputs and outputs? 
   - How can you use it? 
   - Who created it and when? 
-2. Run ```isleapyear``` from the command line to check whether a year is a leap year or not.
+2. Run ```isleapyear``` from the command line a few times to check whether a few different years are leap years or not.
 
 ## 11. Proceed to the next lesson. 
 Phew. That was a lot. The good news is that you should now have a good sense of programming basics. Head to the [next lesson](lesson2) to learn how to apply these basics to create scripts and functions that will carry out analyses.
