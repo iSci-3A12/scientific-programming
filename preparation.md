@@ -5,11 +5,9 @@ nav_order: 2
 ---
 
 # Preparation
-Follow along with Jay's introductory presentation on Scientific Programming, MATLAB, and your assignment. 
+Follow the steps below to prepare MATLAB Online and your get your data pack for this assignment.
 
-## 1. Introductory Presentation
-
-## 2. Activate MATLAB and open MATLAB Online
+## 1. Activate MATLAB and open MATLAB Online
 As a student at McMaster, you have access to MATLAB through McMaster's [web portal](https://www.mathworks.com/academia/tah-portal/mcmaster-university-31501097.html). From this portal, you can download the MATLAB installer to install it on your local desktop or laptop, or access and use MATLAB online--an completely online version of the software. For this assignment, we'll be using the online version. If you don't already have one, you'll be required to create a MathWorks account. 
 
 - Navigate to https://www.mathworks.com/products/matlab-online.html
@@ -32,7 +30,7 @@ As a student at McMaster, you have access to MATLAB through McMaster's [web port
 </tbody>
 </table>
 
-## 3. Add the assignment data pack to MATLAB Drive & MATLAB Online
+## 2. Add the assignment data pack to MATLAB Drive & MATLAB Online
 Before you can begin the assignment, the assignment pack materials need to be uploaded to your [MATLAB Drive](https://drive.matlab.com/files/). This will make these files usable in MATLAB Online. Two options for doing this have been outlined below--**you only need to do one**. 
 
 ### Option 1: Using a MATLAB Drive share
@@ -49,5 +47,5 @@ Before you can begin the assignment, the assignment pack materials need to be up
 - Choose to upload your extracted ```iSci3A12-CC-SciProgramming``` folder to MATLAB Drive.
 - You should now see a folder called ```iSci3A12-CC-SciProgramming``` in your MATLAB Drive and in MATLAB Online. The folder should contain a number of files and subfolders.
 
-## 4. Continue to the first lesson
+## 3. Continue to the first lesson
 Now that you have MATLAB Online set up, continue to the [first lesson](lesson1).
