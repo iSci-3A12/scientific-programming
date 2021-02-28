@@ -7,6 +7,17 @@ nav_order: 4
 # Lesson 2: Intermediate Operations
 In this lesson, you will build upon the [basics](lesson1) to create working scripts and functions and perform some analyses. 
 
+## 1. Preparation
+1. Make sure your **Working Directory** is set to ```/ > MATLAB Drive > iSci3A12-SciProgramming```. This is where we will run our scripts and analyses. 
+1. In MATLAB, open the following files in the **Editor** window: 
+  - The script ```iSci_Intermediate.m```, and 
+  - The function ```iSci_lucky_numbers.m```
+1. Save a copy of ```iSci_lucky_numbers.m``` in the same direcotory and name it ```my_lucky_numbers.m```:
+  - With ```iSci_lucky_numbers``` open, click ```Save > Save As...```
+  ![Save As Dialog Box](assets/img/saveas.png)
+  - Name the new file ```my_lucky_numbers.m```
+1. Open ```iSci_Intermediate``` in the Editor window, and follow along with the directions within. 
+
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
@@ -17,10 +28,6 @@ In this lesson, you will build upon the [basics](lesson1) to create working scri
 </tr>
 </tbody>
 </table>
-
-For this lesson, you will work through the script ```iSci_Intermediate.m```. Most instructions are embedded as comments in the script, and you can run through the 
-
-
 
 
 ### B7. Control structures and indexing 
