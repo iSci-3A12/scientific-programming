@@ -1,10 +1,11 @@
 ---
 layout: default
-title: 04-Analyze One Station
+title: 04-Analyze a Station
 nav_order: 6
 ---
 
 # Lesson 4: Analyzing one Station's Data
+
 **Estimated time to complete: 30 minutes**  
 In this exercise, you will complete the code and comments for the script ```process_adelaide.m``` (which is found in your MATLAB Drive). When completed, this script will load data for the climate station ```Adelaide Airport```, and carry out the same analysis as you completed in a spreadsheet for the first part of your Climate Data Assignment. This should give you a good understanding of the power of scripted approaches, and you'll build on this script to create a final deliverable that can complete analysis for all sites at once. 
   
