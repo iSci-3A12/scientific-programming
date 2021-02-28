@@ -5,6 +5,7 @@ nav_order: 3
 ---
 
 # Lesson 1: Learn MATLAB
+**Estimated time to complete: 1 hour**  
 In this lesson, you'll become familiar with the MATLAB interface, and learn the basic syntax of programming in MATLAB. 
 
 ## 1. The MATLAB interface
