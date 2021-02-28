@@ -5,45 +5,8 @@ nav_order: 4
 ---
 
 # Lesson 2: Intermediate Operations
-In this lesson, you will build upon the [basics](lesson1) and learn how to build a working script and function. 
- 
+In this lesson, you will build upon the [basics](lesson1) to create working scripts and functions and perform some analyses. 
 
-
-## 1. Scripts and functions
-In MATLAB, *find and open* the following files: 
-- The script ```iSci_Intermediate.m``` 
-- The function ```isleapyear.m```  
-
-Both files contain similar content (commands and comments), but they work a bit differently. The **script** ```iSci_Intermediate``` is essentially a list of commands intended to run sequentially (by hitting the ```Run``` button or highlighting sections and executing with the **F9 key**).  
-
-# 1.1 Functions
-Functions like ```isleapyear``` are similar to scripts in that they contain a set of commands to be executed.  Where they differs, however, is that functions run with a separate workspace (called a *stack*).  By default, the function does not have access to variables in the main MATLAB Workspace and variables in the function's stack will not be accessible from the command line.  
-Instead, you pass data into and out of functions when you call them. The *function declaration statement* (at the top of the function) defines which variables will be passed into and out of it. 
-- For example, a function declaration looks something like: 
-```
-function [output1,output2] = name_of_function(input1,input2,input3)
-```  
-, where outputs are placed in brackets before the equals sign and expected inputs are listed after the function name. Functions can have any number of input and output variables, and can be named mostly anything (as long as they don't have a special character or a space in them). Functions are useful when you are interested in only some output variables in a set of commands.  You can also run a function inside of a script (or another function), which makes it a very space and time-saving way to run many commands.  
-
-Functions are called using their name and the output/input format specified above. For example, the operation ```mean``` is a function with the form ```[avg] = mean(input);```, where ```avg``` is the output variable, ```mean``` is the function name, and ```input``` is the input variable or value. 
-
-When using a function in the *Command Window* or a *script*, you can choose the name of the output variable. The following two examples have the same output, but return the result in variables of different names: 
-```
-x = mean([1 2 4 5 -10]);
-avg_value = mean([1 2 4 5 -10]);
-```  
-
-## 1.2 Comments
-You'll notice that the scripts and functions contain more than just the commands meant to be executed in MATLAB--there is additional information provided that explains the scripts/functions and the code found within. These are called **comments**. In MATLAB, the ```%``` character is used to indicate a comment--it appears in green in the editor, and anything on a line after the ```%``` character is ignored by MATLAB when the script/function is run. Comments are a very crucial part of coding, as it provides documentation for future users (including yourself) to figure out what you are doing at each point of a program and why. It is always good practice to comment a description of the program at its top, and comment thoroughly throughout the program. You can see an example of this in ```isleapyear```. 
-
-### 1.3 Exercise
-1. Open ```isleapyear.m```. 
-- Read the function declaration (very top line) and the introductory comments. 
-  - What does this function do? 
-  - What are the inputs and outputs? 
-  - How can you use it? 
-  - Who created it and when? 
-2. Figure out how to use ```isleapyear``` from the command line to check whether a year is a leap year.
 
 
 
