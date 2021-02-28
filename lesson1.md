@@ -4,7 +4,7 @@ title: 01-Learn MATLAB
 nav_order: 3
 ---
 
-# Learn MATLAB
+# Lesson 1: Learn MATLAB
 In this lesson, you'll become familiar with the MATLAB interface, and learn the basic syntax of programming in MATLAB. 
 
 ## 1. The MATLAB interface
@@ -18,7 +18,7 @@ By default, the MATLAB Online interface consists of following panels:
 
 ## 2. Numeric variables
 
-### 2.1 Assigning and naming variables
+### 2.1. Assigning and naming variables
 - Into Command Window, enter a single digit, such as ```8```.  Notice how MATLAB assigns the inputted value to a variable called ```ans```. MATLAB stores all values that are given to it as variables. ```ans``` is the default name given to a variable if a name is not specified.  
 - Now enter another digit into the Command Window, like ```7```. Notice that ```ans=8``` is now overwritten by ```ans=7```. 
 - To avoid overwritting variables and to make more useful variable names, you can assign names and values to variables: 
@@ -37,14 +37,14 @@ test123
 test123 = 14;
 ```
 
-### 2.2 Removing a variable from the workspace
+### 2.2. Removing a variable from the workspace
 - You can remove a variable from your workspace by using the ```clear``` function.
   - e.g. ```clear c``` will remove the variable ```c```.
 - You can remove all variables in the **Workspace** with the ```clearvars``` command.
   - e.g. ```clearvars``` will remove all variables (but don't do this right now). 
 - You can clear the contents of the **Command Window** at any time by typing ```clc```.
 
-### 2.3 Scalars, Vectors and Matrices
+### 2.3. Scalars, Vectors and Matrices
 All previous variables you've created to this point are *scalars* (i.e. 1 row x 1 column). You can use brackets (```[``` and ```]```) to create vectors and matrices.  
 - e.g. Create a 1x5 **row vector** (i.e. 1 row and 5 columns) by placing spaces between values:  
 ```
@@ -66,14 +66,14 @@ cv2 = [31 a -10 39 2]'
 mymatrix1 = [12 4 2 1; 13 4 1 23; 39 20 10 9; 3 -22 -12 0; 78 -6 -3 2];
 ```
 
-### 2.4 Not a Numbers (NaN)
+### 2.4. Not a Numbers (NaN)
 Occasionally, matrices can have missing values. In such cases, you can use the notation ```NaN``` to indicate that there is a missing value in an element of a matrix. This is important when the location of values in a matrix are important (e.g. a time series collected at regular intervals). **Note:** The value NaN is a special character recognized by MATLAB as a null value. Any normal operations that are carried out on variables containing NaNs will result in NaN.
 - e.g. Create a matrix with a couple of ```NaN``` values:  
 ``` 
 cv3 = [4 NaN 5; 9 10 NaN; 8 10 4];
 ```
 
-### 2.5 Referencing elements in vectors, matrices
+### 2.5. Referencing elements in vectors, matrices
 You can reference specific elements in a vector/matrix using parentheses (```(``` and ```)```). **NOTE** that locations are specified by (row# , column#), and you can use the colon (```:```) operator to specify an entire row or column.
 - e.g. Assign variable ```d``` the value of the element in row3, column3 of ```matrix1```
 ```
@@ -84,13 +84,13 @@ d = mymatrix1(3,3);
 e = mymatrix1(:,1); 
 ```
 
-### 2.6 Exercise 
+### 2.6. Exercise 
 1. Create a 6x2 matrix, name it ```mymatrix2```.
 2. Create a new variable called ```mycolumn```, which consists of the second column of mymatrix2.
 
 ## 3. Operations (arithmetic, trigonometric, statistical)
 
-### 3.1 Arithmetic operations
+### 3.1. Arithmetic operations
 - Common arithmetic operations use the expected operations, e.g.: 
 ```
 23+7        % Add:
@@ -123,7 +123,7 @@ cv4 = cv1./cv2; % element-wise division
     - ```rv1*cv1``` will perform matrix multiplication
 	- ```rv1/cv1``` will return an error, as it is attempting to solve a set of linear equations.
 	
-### 3.2 Logarithmic, trigonometric operations
+### 3.2. Logarithmic, trigonometric operations
 See examples below: 
 ```
 log_d = log(d)      		% natural logarithm
@@ -134,7 +134,7 @@ sin_d = sin(d)     			% sine function
 tan_d = tan(d)  			% tangent function
 ```
 
-### 3.3 Statistical operations
+### 3.3. Statistical operations
 See examples below: 
 ```
 mean_cv1 = mean(cv1)		% mean
@@ -175,10 +175,10 @@ To this point, we've worked entirely with numeric arrays. MATLAB provides for a 
 
 Below, you'll learn a bit more about basic array types.
 
-### 6.1 Numeric arrays
+### 6.1. Numeric arrays
 You've already had a basic introduction to numeric arrays through your work with scalars, vectors and matrices. 
 
-### 6.2 Character arrays  
+### 6.2. Character arrays  
 1. Create two character arrays using strings of characters; assign them variable names. e.g.:  
 ```
 char1 = 'my first string' 
@@ -190,7 +190,7 @@ char3 = [char1 char2];
 ```
 3. Figure out how to insert another string between char1 and char2
 
-### 6.3 Cell arrays
+### 6.3. Cell arrays
 1. Create a 2x2 cell array, where one of the cells contains: 
   - a scalar (i.e. a single numeric value). e.g.: ```cell1{1,1} = 99;```
   - a character array. e.g.:  ```cell1{1,2} = 'bottles of beer on the wall';```
@@ -198,7 +198,7 @@ char3 = [char1 char2];
   - a NaN. e.g.: ```cell1{2,2} = NaN;```
 2. Double click on your cell array in the **Workspace** to inspect it in the **Viewer** window 
 
-### 6.4 Structure arrays
+### 6.4. Structure arrays
 1. Enter the following into your script and execute it: 
 ```
 student(1).name = 'John';

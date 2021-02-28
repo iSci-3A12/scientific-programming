@@ -4,19 +4,22 @@ title: 02-Intermediate
 nav_order: 4
 ---
 
+# Lesson 2: Intermediate Operations
 
-### B6. Functions
-A function is similar to a script in that it is a list of commands to be executed.  Where it differs, however, is that functions run within their own personal Workspace (called a 'stack').  By default, internal variables will not be placed in the Workspace, and functions will not be able to 'see' any existing variables in your Workspace.  
-
-You pass data into and out of functions using the function declaration statement at the top of the function. 
-- It looks something like ```function [output1 output2] = name_of_function(input1 input2 input3)```
+## 1. Functions
+A function is similar to a script in that it is a list of commands to be executed.  Where it differs, however, is that functions run with a separate workspace (called a *stack*).  By default, the function does not have access to variables in the main MATLAB Workspace and variables in the function's stack will not be accessible from the command line.  
+Instead, you pass data into and out of functions when you call them. The function declaration statement (at the top of the function) defines which variables will be passed into and out of it. 
+- For example, a function declaration looks something like: 
+```
+function [output1,output2] = name_of_function(input1,input2,input3)
+```
 
 Functions can have any number of input and output variables, and can be named mostly anything (as long as they don't have a special character or a space in them).
 
-Functions are useful when you are interested in only select output variables in a set of commands.  You can also run a function inside of a script (or another function), which makes it a very space and time-saving way to run many commands.  
+Functions are useful when you are interested in only some output variables in a set of commands.  You can also run a function inside of a script (or another function), which makes it a very space and time-saving way to run many commands.  
 
 Functions are called by using their name and the output/input format specified above (see below example). For example, the operation 'mean' is a function.  
-- It is called by, e.g. ```[average] = mean(values);``` where 'average' is the output, 'mean' is the function name, and 'values' are the input. 
+- It is called by, e.g. ```[avg] = mean(input);``` where 'avg' is the output variable, 'mean' is the function name, and 'input' is the input variable or value. 
 
 1. Open \Scripts\isleapyear.m. 
 - What does it do? How can we use it? 
