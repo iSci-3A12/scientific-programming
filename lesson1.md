@@ -151,7 +151,7 @@ var_m1 = var(matrix1)		% variance
   - To view documentation in a separate window, type ```doc``` and the name of the function 
     - e.g. ```doc mean;``` 
 
-## 5. Open a new script
+## 5. Scripts
 To this point, you have entered all of your operations into the command window. This is fine if you only have to perform a couple of operations a few times, but if you want to build a set of connected and repeatable commands, it's best to create a ***script*** or ***function***. (We'll discuss functions later).
 
 - In MATLAB, click the ```New Script``` button to open a new script. Complete the rest of this lesson in the new script, but typing each command into a new line. 
@@ -208,9 +208,44 @@ student(2).age = 24;
 ```
 2. Create a new type of category for both students named ```grade``` and give each student a value.
 
-## 7. Running your newly-created script
+## 7. Running a script
 - In the **Command window**, clear all variables from the workspace with the ```clearvars;``` command 
 - Run your script using the ```Run``` button. Note that you will be required to save it. Give it a useful name (no spaces or dashes) and save it to the same directory as the rest of your work.
 
-## 8. Proceed to the next lesson. 
-All done? Head to the [intermediate lesson](lesson2).
+## 8. Functions
+In MATLAB, *find and open* the following files: 
+- The script ```iSci_Intermediate.m``` 
+- The function ```isleapyear.m```  
+
+Both files contain similar content (commands and comments), but they work a bit differently. The **script** ```iSci_Intermediate``` is essentially a list of commands intended to run sequentially (by hitting the ```Run``` button or highlighting sections and executing with the **F9 key**).  
+
+Functions like ```isleapyear``` are similar to scripts in that they contain a set of commands to be executed.  Where they differs, however, is that functions run with a separate workspace (called a *stack*).  By default, the function does not have access to variables in the main MATLAB Workspace and variables in the function's stack will not be accessible from the command line.  
+Instead, you pass data into and out of functions when you call them. The *function declaration statement* (at the top of the function) defines which variables will be passed into and out of it. 
+- For example, a function declaration looks something like: 
+```
+function [output1,output2] = name_of_function(input1,input2,input3)
+```  
+, where outputs are placed in brackets before the equals sign and expected inputs are listed after the function name. Functions can have any number of input and output variables, and can be named mostly anything (as long as they don't have a special character or a space in them). Functions are useful when you are interested in only some output variables in a set of commands.  You can also run a function inside of a script (or another function), which makes it a very space and time-saving way to run many commands.  
+
+Functions are called using their name and the output/input format specified above. For example, the operation ```mean``` is a function with the form ```[avg] = mean(input);```, where ```avg``` is the output variable, ```mean``` is the function name, and ```input``` is the input variable or value. 
+
+When using a function in the *Command Window* or a *script*, you can choose the name of the output variable. The following two examples have the same output, but return the result in variables of different names: 
+```
+x = mean([1 2 4 5 -10]);
+avg_value = mean([1 2 4 5 -10]);
+```  
+
+## 9. Comments
+You'll notice that the scripts and functions contain more than just the commands meant to be executed in MATLAB--there is additional information provided that explains the scripts/functions and the code found within. These are called **comments**. In MATLAB, the ```%``` character is used to indicate a comment--it appears in green in the editor, and anything on a line after the ```%``` character is ignored by MATLAB when the script/function is run. Comments are a very crucial part of coding, as it provides documentation for future users (including yourself) to figure out what you are doing at each point of a program and why. It is always good practice to comment a description of the program at its top, and comment thoroughly throughout the program. You can see an example of this in ```isleapyear```. 
+
+## 10. Final Exercise
+1. Open ```isleapyear.m```. 
+- Read the function declaration (very top line) and the introductory comments. 
+  - What does this function do? 
+  - What are the inputs and outputs? 
+  - How can you use it? 
+  - Who created it and when? 
+2. Run ```isleapyear``` from the command line to check whether a year is a leap year or not.
+
+## 11. Proceed to the next lesson. 
+Phew. That was a lot. The good news is that you should now have a good sense of programming basics. Head to the [next lesson](lesson2) to learn how to apply these basics to create scripts and functions that will carry out analyses.
