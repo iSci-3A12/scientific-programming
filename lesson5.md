@@ -12,6 +12,9 @@ In this final exercise, you'll take what you learned in the [previous lesson](le
 By the end of this lesson, you will have created the following required deliverable: 
 - A function called ```plot_station_data.m```. 
 
+### Video
+<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/1ce582d8-43ee-40b5-a5f9-54944952bad5?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 ## 1. Setup
 1. Make sure your **Working Directory** is set to ```/ > MATLAB Drive > iSci3A12-SciProgramming```. This is where we will run our scripts and analyses. 
 1. In MATLAB, open the file ```plot_station_data.m```. This function has been partially completed for you. Your tasks are described below: 
