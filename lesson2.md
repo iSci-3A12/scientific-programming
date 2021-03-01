@@ -29,6 +29,7 @@ In this lesson, you will build upon the [basics](lesson1) to create working scri
 
 ### 3.1 Understand my_lucky_numbers
 1. Read through the code and comments in ```my_lucky_numbers```. You don't need to understand every command, but try to get a sense of the logic behind the function. 
+1. Using the usage example provided, run the function a few times to understand its output.
 1. Edit your ```my_lucky_numbers``` function so that instead of returning numbers between 1 and 49, it returns numbers between 1 and 100. 
   - **HINT**: Find the value ```49``` in the code and replace it with ```100```.
   - Save your changes. 
