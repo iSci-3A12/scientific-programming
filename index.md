@@ -14,7 +14,16 @@ The purpose of this workshop is to provide you with an introduction to the MATLA
 ## 1. Intro presentation
 Watch Jay's introductory presentation to the assignment: 
 
-## 2. Deliverables
+## 2. Objectives
+By the end of this workshop, you will be able to:
+- Compare and contrast the relative merits of performing analyses interactively (e.g. in spreadsheet) vs. programmatically (i.e. using a scripted approach).
+- Identify situations where a programmatic approach would be beneficial.
+- Explain the basic elements and principles of scientific programming.
+- Run basic commands and execute functions in MATLAB.
+- Use your programming knowledge and skills to create working scripts and functions. 
+- Apply your new skills and knowledge in other programming languages.
+
+## 3. Deliverables
 For your final deliverables, you will upload to Avenue to Learn a few functions, a script, an image, and a document with a very short reflection. The full list of deliverables (described below) that will be uploaded to Avenue to Learn is: 
 - A function named ```my_lucky_numbers.m``` (Created during [Lesson 2](lesson2))
 - A figure named ```lucky_numbers.png``` (Created during [Lesson 2](lesson2))
@@ -23,5 +32,13 @@ For your final deliverables, you will upload to Avenue to Learn a few functions,
 - A function named ```plot_station_data.m``` (Created during [Lesson 5](lesson5))
 - A pdf document that provides a very short reflection on your experience
 
-## 3. Get started 
+## 4. Assessment
+**Date Assigned:**	2021/03/01  
+**Date Due:** 		2021/03/21   
+**Weight:** 		5 points  
+
+### Assessment Rubric
+![Assessment rubric](assets/img/rubric.png)
+
+## 5. Get started 
 Ready to start? Head to the [preparation page](preparation) and follow the instructions to get your software (MATLAB Online) and data ready.
