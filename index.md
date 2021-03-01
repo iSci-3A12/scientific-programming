@@ -15,6 +15,7 @@ The purpose of this workshop is to provide you with an introduction to the MATLA
 Watch Jay's introductory presentation to the assignment: 
 
 #### Video 
+<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/439cf5ee-5dad-462e-a9a8-04f0c6de01d0?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
 #### Slides
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9zj8Ktv3CN4HAeDHGm8xeUuhDh0LDy8CZomZhuxCeEWjEafTyDSBrze91vQK9XNRf-Yu0RjtytcjG/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
