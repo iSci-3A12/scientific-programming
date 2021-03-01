@@ -9,6 +9,9 @@ nav_order: 3
 **Estimated time to complete: 45 minutes**  
 In this lesson, you'll become familiar with the MATLAB interface, and learn the basic syntax of programming in MATLAB. 
 
+### Video (Part 1)
+<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/4981e458-a44c-4287-bf42-0fc4210e7a30?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 ## 1. The MATLAB interface
 ![MATLAB Online interface](assets/img/interface.png)
 By default, the MATLAB Online interface consists of following panels: 
@@ -45,6 +48,9 @@ test123 = 14;
 - You can remove all variables in the **Workspace** with the ```clearvars``` command.
   - e.g. ```clearvars``` will remove all variables (but don't do this right now). 
 - You can clear the contents of the **Command Window** at any time by typing ```clc```.
+
+### Video (Part 2)
+<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/fb767234-ffed-4646-a49f-24e2e062c621?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
 ### 2.3. Scalars, Vectors and Matrices
 All previous variables you've created to this point are *scalars* (i.e. 1 row x 1 column). You can use brackets (```[``` and ```]```) to create vectors and matrices.  
