@@ -26,8 +26,9 @@ In this task, you need to complete the code in ```plot_station_data``` so that t
 - Similar to the previous lesson, creates two png figures for each site: 
   - A *timeseries* figure named ```<stationName>_timeseries.png```, where ```<stationName>``` is the file name of the station data file, and 
   - A *barcode* figure named ```<stationName>_barcode.png```, where ```<stationName>``` is the file name of the station data file.
-  
-The *function declaration* for ```plot_station_data``` has already been created to accommodate the inputs defined above: 
+- Is properly commented in the top section and throughout the function.  
+<br>
+**NOTE** that the *function declaration* for ```plot_station_data``` has already been created to accommodate the inputs defined above: 
 ```
 function [] = plot_station_data_soln(station_name, ref_start, ref_end)
 ```
@@ -37,7 +38,6 @@ function [] = plot_station_data_soln(station_name, ref_start, ref_end)
   - ```plot_station_data('Arhangelsk', 1961, 1990)```
   - ```plot_station_data('Kanazawa', 1971, 2000)```
   - ```plot_station_data('all', 1971, 2000)```
-  
 
 ## 3. Deliverables
 - Ensure that all changes to your function ```plot_station_data``` is saved.

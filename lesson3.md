@@ -48,6 +48,7 @@ Full directions are already provided in the top comments of ```simple_stats```. 
   - The ```Step In``` and ```Step Out``` buttons are useful if the current line calls another function. If so, it will move into the function and pause there. 
   - The ```Quit Debugging``` button exits the function. 
   - The ```Breakpoints``` button allows you to clear existing breakpoints.
+- **REMEMBER** to quit debugging or complete the function before trying to call another one of your functions or running a script.
   
 ## 3. Deliverables
 - Ensure that all changes to your function ```simple_stats.m``` is saved. **NOTE** that you are submitting the function and not the output (Jay is going to run the function on his computer to evaluate it).
