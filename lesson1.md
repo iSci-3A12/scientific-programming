@@ -77,11 +77,11 @@ cv3 = [4 NaN 5; 9 10 NaN; 8 10 4];
 
 ### 2.5. Referencing elements in vectors, matrices
 You can reference specific elements in a vector/matrix using parentheses (```(``` and ```)```). **NOTE** that locations are specified by (row# , column#), and you can use the colon (```:```) operator to specify an entire row or column.
-- e.g. Assign variable ```d``` the value of the element in row3, column3 of ```matrix1```
+- e.g. Assign variable ```d``` the value of the element in row3, column3 of ```mymatrix1```
 ```
 d = mymatrix1(3,3); 
 ```
-- e.g. Assign variable ```e``` the value of entire first column of ```matrix1```
+- e.g. Assign variable ```e``` the value of entire first column of ```mymatrix1```
 ```
 e = mymatrix1(:,1); 
 ```
@@ -131,7 +131,7 @@ See examples below:
 log_d = log(d)      		% natural logarithm
 log10_d = log10(d)  		% base10 logarithm
 exp_cv1 = exp(cv1)      	% natural exponent
-cos_m1 = cos(matrix1)      	% cosine function
+cos_m1 = cos(mymatrix1)      	% cosine function
 sin_d = sin(d)     			% sine function
 tan_d = tan(d)  			% tangent function
 ```
@@ -141,9 +141,9 @@ See examples below:
 ```
 mean_cv1 = mean(cv1)		% mean
 mode_cv1 = mode(cv1)		% mode
-std_m1 = std(matrix1) 		% standard deviation; notice it takes the standard deviation for each column
-std_m1b = std(matrix1,0,2) 	% This will take stdev across rows, instead.
-var_m1 = var(matrix1)		% variance
+std_m1 = std(mymatrix1) 		% standard deviation; notice it takes the standard deviation for each column
+std_m1b = std(mymatrix1,0,2) 	% This will take stdev across rows, instead.
+var_m1 = var(mymatrix1)		% variance
 ```
 
 ## 4. Learning more about MATLAB
