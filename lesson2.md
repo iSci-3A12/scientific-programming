@@ -11,6 +11,9 @@ In this lesson, you will build upon the [basics](lesson1) to create working scri
 - Your modified version of ```my_lucky_numbers.m```
 - The figure ```my_lucky_numbers.png``` that you will create during your analyses
 
+### Video
+<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/083bc1cb-6d74-4c57-8209-9314408b2de6?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 ## 1. Setup
 1. Make sure your **Working Directory** is set to ```/ > MATLAB Drive > iSci3A12-SciProgramming```. This is where we will run our scripts and analyses. 
 1. In MATLAB, open the following files in the **Editor** window: 
@@ -26,9 +29,6 @@ In this lesson, you will build upon the [basics](lesson1) to create working scri
   - **NOTE**: When you call a function, it will execute the *last saved version* of the file. As a result, you need to save your changes to a function before it will be reflected in the output.
 
 ## 3. Completing the lesson 
-
-### Video
-<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/083bc1cb-6d74-4c57-8209-9314408b2de6?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
 ### 3.1 Understand my_lucky_numbers
 1. Read through the code and comments in ```my_lucky_numbers```. You don't need to understand every command, but try to get a sense of the logic behind the function. 
