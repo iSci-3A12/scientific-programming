@@ -40,7 +40,7 @@ Before you can begin the assignment, the assignment pack materials need to be up
 - You should now see a folder called ```iSci3A12-CC-SciProgramming``` in your MATLAB Drive and in MATLAB Online. The folder should contain a number of files and subfolders.
 
 ### Option 2: Upload files to MATLAB Drive
-- Click on [this link](https://github.com/iSci-3A12/scientific-programming/raw/main/assets/data/Matlab_Data_Pack/iSci3A12-CC-SciProgramming.zip) to download the assignment data pack from this assignment's [GitHub repository](https://github.com/iSci-3A12/scientific-programming) to your local computer as a zip file. 
+- Click on [this link](https://github.com/iSci-3A12/scientific-programming/raw/main/assets/data/iSci3A12-CC-SciProgramming.zip) to download the assignment data pack from this assignment's [GitHub repository](https://github.com/iSci-3A12/scientific-programming) to your local computer as a zip file. 
 - On your local computer, extract the zip file to a folder named ```iSci3A12-CC-SciProgramming```.
 - Go to your [MATLAB Drive](https://drive.matlab.com/files/) select ```Upload > Folder```
 ![MATLAB Drive folder upload page](assets/img/matlab-drive-upload-folder.png)
