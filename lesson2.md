@@ -52,8 +52,8 @@ You’ve been given a "lucky number generating program" from a friend (called ``
 </table>
 
 ## 4. Deliverables
-- Be sure to respond to the related question in your response sheet. 
-- Ensure that your figure ```lucky_random_numbers.png``` has been created. You'll download this at the end to submit. 
+**Updated 2021-03-02 to clarify expectations for figure**
+- Ensure that your figure ```lucky_random_numbers.png``` has been created using all of the formatting commands included at the end of ```Intermeidate.m``` (you don't need to add anything else beyond what exists in the script), and looks similar to the image that Jay showed in the final video.  You'll download this from MATLAB Drive in order to submit. 
 - Ensure that all changes to your function ```my_lucky_numbers.m``` is saved.
 
 ## 5. Head to the next exercise
