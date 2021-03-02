@@ -45,14 +45,22 @@ You’ve been given a "lucky number generating program" from a friend (called ``
 <tbody>
 <tr>
 <td>
-<p><b>IMPORTANT NOTE:</b> For this lesson, you will work through the exercises within the script <b>iSci_Intermediate.m</b>. The instructions are embedded as comments in the script, and you can run through the steps by highlighting line(s) and executing them in the Command Window with the F9 key.</p>
+<p><b>IMPORTANT NOTE:</b> For this lesson, you will work through the exercises within the script <b>iSci_Intermediate.m. The instructions are embedded as comments in the script, and you can run through the steps by highlighting line(s) and executing them in the Command Window with the F9 key.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 ## 4. Deliverables
-**Updated 2021-03-02 to clarify expectations for figure**
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><b>Updated 2021-03-02 to clarify expectations for figure</b></p>
+</td>
+</tr>
+</tbody>
+</table>
 - Ensure that your figure ```lucky_random_numbers.png``` has been created using all of the formatting commands included at the end of ```Intermeidate.m``` (you don't need to add anything else beyond what exists in the script), and looks similar to the image that Jay showed in the final video.  You'll download this from MATLAB Drive in order to submit. 
 - Ensure that all changes to your function ```my_lucky_numbers.m``` is saved.
 
