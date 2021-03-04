@@ -33,7 +33,7 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 <tbody>
 <tr>
 <td>
-<p><b>Updated 2021-03-03</b>: You function only needs to handle input values that are positives or NaNs. If you can figure out how to make it work with a negative value, Jay will give you a bonus mark.</p>
+<p><b>Updated 2021-03-03</b>: Your function only needs to handle input values that are positives or NaNs. If you can figure out how to make it work with a negative value, Jay will give you a bonus mark.</p>
 </td>
 </tr>
 </tbody>
