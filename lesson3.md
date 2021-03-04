@@ -29,14 +29,23 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 1. Has completed comments for the 'usage' and 'created by' information in the top comment section
 1. Has comments with each section of code that explains what it does.
 
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+  <p><b>Updated 2021-03-03: You function only needs to handle input values that are positives or NaNs. If you can figure out how to make it work with a negative value, Jay will give you a bonus mark.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 2.1. Hints
 - The function ```nanmean``` (and other similar functions like ```nanmin```) are very handy for filtering out NaNs. Learn more by entering ```doc nanmean``` in the command window. 
 - Remember that your *function declaration* will assign the inputted column vector with the internal variable name ```numbers_in```; you will want to perform your calculations on this variable. Similarly, your final (ready to output) variable should be named ```stats``` so that it is passed back to the Command Window.
 - Jay will evaluate this function by calling it from the command window with a couple of different vectors as input. 
 - If you want to test the output, try running the following in the command window and inspecting the output:  
-```
-[stats_out] = simple_stats([-9; 234.32; 1; NaN; 203.34; NaN; 87; 63])
-```
+  - Basic requirements: ```[stats_out] = simple_stats([9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
+  - Bonus mark: ```[stats_out] = simple_stats([-9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
 
 #### Breakpoints & Debugging
 - If you want to see what your function is doing while it's running (or view values of variables within the function), the best approach is to set a ***breakpoint*** in your function. When a breakpoint is set on a line, the function will pause at that point, and the Workspace will display all of the internal variables that are currently held within that function. 
