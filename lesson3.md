@@ -33,7 +33,7 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 <tbody>
 <tr>
 <td>
-  <p><b>Updated 2021-03-03<b>: You function only needs to handle input values that are positives or NaNs. If you can figure out how to make it work with a negative value, Jay will give you a bonus mark.</p>
+  <p><b>Updated 2021-03-03</b>: You function only needs to handle input values that are positives or NaNs. If you can figure out how to make it work with a negative value, Jay will give you a bonus mark.</p>
 </td>
 </tr>
 </tbody>
@@ -44,7 +44,8 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 - Remember that your *function declaration* will assign the inputted column vector with the internal variable name ```numbers_in```; you will want to perform your calculations on this variable. Similarly, your final (ready to output) variable should be named ```stats``` so that it is passed back to the Command Window.
 - Jay will evaluate this function by calling it from the command window with a couple of different vectors as input. 
 - If you want to test the output, try running the following in the command window and inspecting the output:  
-  - Basic requirements: ```[stats_out] = simple_stats([9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
+  - Basic requirements (with no prime): ```[stats_out] = simple_stats([9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
+  - Basic requirements (with a prime): ```[stats_out] = simple_stats([13; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
   - Bonus mark: ```[stats_out] = simple_stats([-9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
 
 #### Breakpoints & Debugging
