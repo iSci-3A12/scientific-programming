@@ -20,6 +20,18 @@ By the end of this lesson, you will have created the following required delivera
 1. In MATLAB, open the file ```plot_station_data.m```. This function has been partially completed for you. Your tasks are described below: 
 
 ## 2. Your tasks
+
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><b>Update 2021-03-05</b>: If you downloaded your data pack before 06-March, there is a small bug in the <b>plot_station_data</b> code that needs to be corrected.</p>
+<p>To correct this, near the bottom of the plot_station_data code, replace <b>delay(4000);</b> with <b>pause(4);</b>. Jay used the wrong programming language.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 In the last lesson, you created a script that processes and plots station data for a single station using a set reference period to calculate anomalies (i.e. 1951-1980). ***But what if you wanted to do the same analysis for other sites? For all sites? What if you wanted to change the reference period and run it again?*** This is where creating a function (where those preferences can be entered as inputs) becomes valuable. 
   
 In this task, you need to complete the code in ```plot_station_data``` so that the function: 
