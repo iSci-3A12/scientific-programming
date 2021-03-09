@@ -25,9 +25,12 @@ By the end of this lesson, you will have created the following required delivera
 1. Ensure that the script runs without issues (i.e. by clicking the ```Run``` button) and produces the figures in the \Figs directory.
 1. Add comments to the top comment section and on other lines where you've added code. 
 
-## 3. Deliverables
+## 3. Hints
+1. Already included in the function is some code that will remove -9999s from your data. If your timeseries graph shows a steep drop in values (e.g. equal to -9999), you've likely used the wrong variable to calculate anomalies. 
+
+## 4. Deliverables
 - Ensure that all changes to your script ```process_adelaide``` is saved.
 - **NOTE** that you are submitting the script and not the output (Jay is going to run the script on his computer to evaluate that it creates the proper outputs).
 
-## 4. Head to the next exercise
+## 5. Head to the next exercise
 Now that you've processed one site, the challenge is to generalize this code into a function that can analyze all sites in your data folder at once! Head to the [final lesson](lesson5). One more to go! 
