@@ -45,7 +45,7 @@ You’ve been given a "lucky number generating program" from a friend (called ``
 <tbody>
 <tr>
 <td>
-<p><b>IMPORTANT NOTE:</b> For this lesson, you will work through the exercises within the script <b>iSci_Intermediate.m</b>. The instructions are embedded as comments in the script, and you can run through the steps by highlighting line(s) and executing them in the Command Window with the F9 key.</p>
+<p><b>IMPORTANT NOTE:</b> For this lesson, you will work through the exercises within the script <b>iSci_Intermediate.m</b>. The instructions are embedded as comments in the script, and you can run through the steps by highlighting line(s) and executing them in the Command Window with the F9 key (Windows) or Fn+Shift+F7 (Mac).</p>
 </td>
 </tr>
 </tbody>
