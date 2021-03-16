@@ -19,7 +19,7 @@ In this mini-lesson, you're tasked with applying the skills you learned in the [
 
 ## 2. Your task
 Full directions are already provided in the top comments of ```simple_stats```. You must add code and comments to ```simple_stats``` so that it: 
-1. Takes a column vector of any length as input (n rows x 1 column), which may or may not contain NaNs.
+1. Takes a column vector of any length as input (n rows x 1 column of integers), which may or may not contain NaNs.
 1. Using the inputted column vector, creates a 5x1 column vector as output, which contains the following values: 
   - row 1: minimum value of the inputted column vector (excluding NaNs)
   - row 2: maximum value of the inputted column vector (excluding NaNs)
