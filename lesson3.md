@@ -45,11 +45,11 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 - Jay will evaluate this function by calling it from the command window with a couple of different vectors as input. 
 - If you want to test the output, try running the following in the command window and inspecting the output:  
   - **Basic requirements (with no prime)**: 
-    - ```[stats_out] = simple_stats([9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
+    - ```[stats_out] = simple_stats([9; 234; 1; NaN; 203; NaN; 87; 63])```
   - **Basic requirements (with a prime)**: 
-    - ```[stats_out] = simple_stats([13; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
+    - ```[stats_out] = simple_stats([13; 234; 1; NaN; 203; NaN; 87; 63])```
   - **Bonus mark**: 
-    - ```[stats_out] = simple_stats([-9; 234.32; 1; NaN; 203.34; NaN; 87; 63])```
+    - ```[stats_out] = simple_stats([-9; 234; 1; NaN; 203; NaN; 87; 63])```
 
 #### Breakpoints & Debugging
 - If you want to see what your function is doing while it's running (or view values of variables within the function), the best approach is to set a ***breakpoint*** in your function. When a breakpoint is set on a line, the function will pause at that point, and the Workspace will display all of the internal variables that are currently held within that function. 
