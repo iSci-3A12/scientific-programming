@@ -36,7 +36,7 @@ In the last lesson, you created a script that processes and plots station data f
   
 In this task, you need to complete the code in ```plot_station_data``` so that the function: 
 - Allows a user to select one site to analyze by entering the name of a station's data file as it appears in ```/Data``` (e.g. ```Arhangelsk```, ```Base Orcadas```, etc.). Internally, this is assigned to the ```station_name``` variable.
-- Allows a user to process all site data in ```/Data``` at once (in a loop) if they enter ```all``` in the place of a station file name.  
+- Allows a user to process all site data in ```/Data``` at once (in a loop) if they enter ```'all'``` in the place of a station file name.  
 - Allows a user to specify the start (```ref_start```) and end (```end_year```) years for the *reference period* for calculating anomalies.
 - Similar to the previous lesson, creates two png figures for each site: 
   - A *timeseries* figure named ```<stationName>_timeseries.png```, where ```<stationName>``` is the file name of the station data file, and 
