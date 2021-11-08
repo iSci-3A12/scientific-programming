@@ -20,6 +20,7 @@ In this mini-lesson, you're tasked with applying the skills you learned in the [
 ## 2. Your task
 Full directions are already provided in the top comments of ```simple_stats```. You must add code and comments to ```simple_stats``` so that it: 
 1. Takes a column vector of any length as input (n rows x 1 column of integers), which may or may not contain NaNs.
+  - *NOTE*: Your function only needs to handle input values that are positives integers or NaNs. If you can figure out how to make it work with decimals or a negative value, Jay will give you a bonus mark.
 1. Using the inputted column vector, creates a 5x1 column vector as output, which contains the following values: 
   - row 1: minimum value of the inputted column vector (excluding NaNs)
   - row 2: maximum value of the inputted column vector (excluding NaNs)
@@ -29,6 +30,7 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 1. Has completed comments for the 'usage' and 'created by' information in the top comment section
 1. Has comments with each section of code that explains what it does.
 
+<!--
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
@@ -38,6 +40,7 @@ Full directions are already provided in the top comments of ```simple_stats```. 
 </tr>
 </tbody>
 </table>
+-->
 
 ### 2.1. Hints
 - The function ```nanmean``` (and other similar functions like ```nanmin```) are very handy for filtering out NaNs. Learn more by entering ```doc nanmean``` in the command window. 
