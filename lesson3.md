@@ -6,7 +6,7 @@ nav_order: 5
 
 # Lesson 3: Create a Function
 
-**Estimated time to complete: 30 minutes**  
+**Estimated time to complete: 45-90 minutes**  
 In this mini-lesson, you're tasked with applying the skills you learned in the [previous lesson](lesson2) to create your very own function. By the end of this lesson, you will have created the following required deliverable: 
 - A function called ```simple_stats.m```. 
 
